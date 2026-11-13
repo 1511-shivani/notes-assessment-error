@@ -1,0 +1,85 @@
+{"version":10,"type":"context-options","origin":"library","browserName":"","playwrightVersion":"1.65.0","options":{},"platform":"win32","wallTime":1794493910957,"monotonicTime":12316.438,"sdkLanguage":"javascript","title":"cross-layer.spec.ts:5 › C | Integrated - cross-layer persistence (live) › note created via API is visible in the UI"}
+{"type":"before","callId":"ohxu@53","startTime":12324.522,"class":"APIRequestContext","method":"fetch","params":{"url":"users/register","method":"POST","jsonData":"{\"name\":\"qa user 1794493910959535479\",\"email\":\"qa.1794493910959535479@example.com\",\"password\":\"Passw0rd!123\"}"}}
+{"type":"log","callId":"ohxu@53","time":12353.37,"message":"→ POST https://practice.expandtesting.com/notes/api/users/register"}
+{"type":"log","callId":"ohxu@53","time":12353.446,"message":"  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.8127.18 Safari/537.36"}
+{"type":"log","callId":"ohxu@53","time":12353.481,"message":"  accept: */*"}
+{"type":"log","callId":"ohxu@53","time":12353.497,"message":"  accept-encoding: gzip,deflate,br"}
+{"type":"log","callId":"ohxu@53","time":12353.511,"message":"  content-type: application/json"}
+{"type":"log","callId":"ohxu@53","time":12353.524,"message":"  content-length: 109"}
+{"type":"log","callId":"ohxu@53","time":12886.487,"message":"← 201 Created"}
+{"type":"log","callId":"ohxu@53","time":12886.529,"message":"  access-control-allow-origin: *"}
+{"type":"log","callId":"ohxu@53","time":12886.543,"message":"  access-control-allow-credentials: true"}
+{"type":"log","callId":"ohxu@53","time":12886.567,"message":"  access-control-allow-methods: GET, POST, PUT, DELETE, PATCH"}
+{"type":"log","callId":"ohxu@53","time":12886.582,"message":"  access-control-allow-headers: Origin, X-Requested-With, Authorization, Content-Type, Accept, X-Auth-Token"}
+{"type":"log","callId":"ohxu@53","time":12886.59,"message":"  content-type: application/json; charset=utf-8"}
+{"type":"log","callId":"ohxu@53","time":12886.598,"message":"  content-encoding: br"}
+{"type":"log","callId":"ohxu@53","time":12886.605,"message":"  etag: W/\"c6-WvOn1Ntdq+Yg4fnH5AlFu4KVtHE\""}
+{"type":"log","callId":"ohxu@53","time":12886.613,"message":"  set-cookie: express:sess=eyJmbGFzaCI6e319; path=/; httponly,express:sess.sig=tdt42nQZiQvICqmrvHQ1_16fHk0; path=/; httponly"}
+{"type":"log","callId":"ohxu@53","time":12886.62,"message":"  date: Thu, 12 Nov 2026 14:31:50 GMT"}
+{"type":"log","callId":"ohxu@53","time":12886.627,"message":"  connection: keep-alive"}
+{"type":"log","callId":"ohxu@53","time":12886.635,"message":"  keep-alive: timeout=5"}
+{"type":"log","callId":"ohxu@53","time":12886.642,"message":"  transfer-encoding: chunked"}
+{"type":"after","callId":"ohxu@53","endTime":12901.109,"result":{"response":{"url":"https://practice.expandtesting.com/notes/api/users/register","status":201,"statusText":"Created","headers":[{"name":"access-control-allow-origin","value":"*"},{"name":"access-control-allow-credentials","value":"true"},{"name":"access-control-allow-methods","value":"GET, POST, PUT, DELETE, PATCH"},{"name":"access-control-allow-headers","value":"Origin, X-Requested-With, Authorization, Content-Type, Accept, X-Auth-Token"},{"name":"content-type","value":"application/json; charset=utf-8"},{"name":"content-encoding","value":"br"},{"name":"etag","value":"W/\"c6-WvOn1Ntdq+Yg4fnH5AlFu4KVtHE\""},{"name":"set-cookie","value":"express:sess=eyJmbGFzaCI6e319; path=/; httponly"},{"name":"set-cookie","value":"express:sess.sig=tdt42nQZiQvICqmrvHQ1_16fHk0; path=/; httponly"},{"name":"date","value":"Thu, 12 Nov 2026 14:31:50 GMT"},{"name":"connection","value":"keep-alive"},{"name":"keep-alive","value":"timeout=5"},{"name":"transfer-encoding","value":"chunked"}],"securityDetails":{"protocol":"TLSv1.3","subjectName":"practice.expandtesting.com","validFrom":1789773912,"validTo":1797549911,"issuer":"YE1"},"serverAddr":{"ipAddress":"2a09:8280:1::69:2548","port":443},"timing":{"startTime":1794493910972,"domainLookupStart":0,"domainLookupEnd":24.464999999998327,"connectStart":24.464999999998327,"secureConnectionStart":78.07699999999932,"connectEnd":141.96399999999994,"requestStart":141.96399999999994,"responseStart":553.7099999999991},"responseEndTiming":568.4919999999984,"fetchUid":"26e90e2e99f9b6e2a8d8d0e960ad06d2"}}}
+{"type":"before","callId":"ohxu@56","startTime":12918.731,"class":"APIRequestContext","method":"fetch","params":{"url":"users/login","method":"POST","jsonData":"{\"email\":\"qa.1794493910959535479@example.com\",\"password\":\"Passw0rd!123\"}"}}
+{"type":"log","callId":"ohxu@56","time":12920.138,"message":"→ POST https://practice.expandtesting.com/notes/api/users/login"}
+{"type":"log","callId":"ohxu@56","time":12920.165,"message":"  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.8127.18 Safari/537.36"}
+{"type":"log","callId":"ohxu@56","time":12920.175,"message":"  accept: */*"}
+{"type":"log","callId":"ohxu@56","time":12920.182,"message":"  accept-encoding: gzip,deflate,br"}
+{"type":"log","callId":"ohxu@56","time":12920.189,"message":"  content-type: application/json"}
+{"type":"log","callId":"ohxu@56","time":12920.196,"message":"  content-length: 72"}
+{"type":"log","callId":"ohxu@56","time":12920.202,"message":"  cookie: express:sess=eyJmbGFzaCI6e319; express:sess.sig=tdt42nQZiQvICqmrvHQ1_16fHk0"}
+{"type":"log","callId":"ohxu@56","time":13313.791,"message":"← 200 OK"}
+{"type":"log","callId":"ohxu@56","time":13313.824,"message":"  access-control-allow-origin: *"}
+{"type":"log","callId":"ohxu@56","time":13313.838,"message":"  access-control-allow-credentials: true"}
+{"type":"log","callId":"ohxu@56","time":13313.846,"message":"  access-control-allow-methods: GET, POST, PUT, DELETE, PATCH"}
+{"type":"log","callId":"ohxu@56","time":13313.853,"message":"  access-control-allow-headers: Origin, X-Requested-With, Authorization, Content-Type, Accept, X-Auth-Token"}
+{"type":"log","callId":"ohxu@56","time":13313.861,"message":"  content-type: application/json; charset=utf-8"}
+{"type":"log","callId":"ohxu@56","time":13313.869,"message":"  content-encoding: br"}
+{"type":"log","callId":"ohxu@56","time":13313.876,"message":"  etag: W/\"100-gE0dWsGxKfFKBJCWynAs2o0g4Qw\""}
+{"type":"log","callId":"ohxu@56","time":13313.884,"message":"  date: Thu, 12 Nov 2026 14:31:50 GMT"}
+{"type":"log","callId":"ohxu@56","time":13313.892,"message":"  connection: keep-alive"}
+{"type":"log","callId":"ohxu@56","time":13313.941,"message":"  keep-alive: timeout=5"}
+{"type":"log","callId":"ohxu@56","time":13313.951,"message":"  transfer-encoding: chunked"}
+{"type":"after","callId":"ohxu@56","endTime":13316.445,"result":{"response":{"url":"https://practice.expandtesting.com/notes/api/users/login","status":200,"statusText":"OK","headers":[{"name":"access-control-allow-origin","value":"*"},{"name":"access-control-allow-credentials","value":"true"},{"name":"access-control-allow-methods","value":"GET, POST, PUT, DELETE, PATCH"},{"name":"access-control-allow-headers","value":"Origin, X-Requested-With, Authorization, Content-Type, Accept, X-Auth-Token"},{"name":"content-type","value":"application/json; charset=utf-8"},{"name":"content-encoding","value":"br"},{"name":"etag","value":"W/\"100-gE0dWsGxKfFKBJCWynAs2o0g4Qw\""},{"name":"date","value":"Thu, 12 Nov 2026 14:31:50 GMT"},{"name":"connection","value":"keep-alive"},{"name":"keep-alive","value":"timeout=5"},{"name":"transfer-encoding","value":"chunked"}],"securityDetails":{"protocol":"TLSv1.3","subjectName":"practice.expandtesting.com","validFrom":1789773912,"validTo":1797549911,"issuer":"YE1"},"serverAddr":{"ipAddress":"2a09:8280:1::69:2548","port":443},"timing":{"startTime":1794493911560,"domainLookupStart":-1,"domainLookupEnd":-1,"connectStart":-1,"secureConnectionStart":-1,"connectEnd":-1,"requestStart":0.8610000000007858,"responseStart":392.8230000000003},"responseEndTiming":396.4480000000003,"fetchUid":"0ebcedea18b1b01a0089dfff78d9bb76"}}}
+{"type":"before","callId":"ohxu@62","startTime":13322.042,"class":"APIRequestContext","method":"fetch","params":{"url":"notes","method":"POST","headers":[{"name":"x-auth-token","value":"28ec65b3281741dfa24d6a6c40c767335b8c95d551cf4d67b04da7ed445521ef"}],"jsonData":"{\"category\":\"Home\",\"title\":\"Int API->UI 1794493911961-893747\",\"description\":\"Description for Int API->UI 1794493911961-893747\"}"}}
+{"type":"log","callId":"ohxu@62","time":13322.798,"message":"→ POST https://practice.expandtesting.com/notes/api/notes"}
+{"type":"log","callId":"ohxu@62","time":13322.819,"message":"  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.8127.18 Safari/537.36"}
+{"type":"log","callId":"ohxu@62","time":13322.826,"message":"  accept: */*"}
+{"type":"log","callId":"ohxu@62","time":13322.831,"message":"  accept-encoding: gzip,deflate,br"}
+{"type":"log","callId":"ohxu@62","time":13322.836,"message":"  x-auth-token: 28ec65b3281741dfa24d6a6c40c767335b8c95d551cf4d67b04da7ed445521ef"}
+{"type":"log","callId":"ohxu@62","time":13322.841,"message":"  content-type: application/json"}
+{"type":"log","callId":"ohxu@62","time":13322.847,"message":"  content-length: 127"}
+{"type":"log","callId":"ohxu@62","time":13322.852,"message":"  cookie: express:sess=eyJmbGFzaCI6e319; express:sess.sig=tdt42nQZiQvICqmrvHQ1_16fHk0"}
+{"type":"log","callId":"ohxu@62","time":13642.024,"message":"← 200 OK"}
+{"type":"log","callId":"ohxu@62","time":13642.048,"message":"  access-control-allow-origin: *"}
+{"type":"log","callId":"ohxu@62","time":13642.06,"message":"  access-control-allow-credentials: true"}
+{"type":"log","callId":"ohxu@62","time":13642.066,"message":"  access-control-allow-methods: GET, POST, PUT, DELETE, PATCH"}
+{"type":"log","callId":"ohxu@62","time":13642.072,"message":"  access-control-allow-headers: Origin, X-Requested-With, Authorization, Content-Type, Accept, X-Auth-Token"}
+{"type":"log","callId":"ohxu@62","time":13642.078,"message":"  content-type: application/json; charset=utf-8"}
+{"type":"log","callId":"ohxu@62","time":13642.084,"message":"  content-encoding: br"}
+{"type":"log","callId":"ohxu@62","time":13642.09,"message":"  etag: W/\"171-rI9TKm03h64NEgKQdsRuC5rYY9E\""}
+{"type":"log","callId":"ohxu@62","time":13642.096,"message":"  date: Thu, 12 Nov 2026 14:31:51 GMT"}
+{"type":"log","callId":"ohxu@62","time":13642.102,"message":"  connection: keep-alive"}
+{"type":"log","callId":"ohxu@62","time":13642.108,"message":"  keep-alive: timeout=5"}
+{"type":"log","callId":"ohxu@62","time":13642.115,"message":"  transfer-encoding: chunked"}
+{"type":"after","callId":"ohxu@62","endTime":13643.41,"result":{"response":{"url":"https://practice.expandtesting.com/notes/api/notes","status":200,"statusText":"OK","headers":[{"name":"access-control-allow-origin","value":"*"},{"name":"access-control-allow-credentials","value":"true"},{"name":"access-control-allow-methods","value":"GET, POST, PUT, DELETE, PATCH"},{"name":"access-control-allow-headers","value":"Origin, X-Requested-With, Authorization, Content-Type, Accept, X-Auth-Token"},{"name":"content-type","value":"application/json; charset=utf-8"},{"name":"content-encoding","value":"br"},{"name":"etag","value":"W/\"171-rI9TKm03h64NEgKQdsRuC5rYY9E\""},{"name":"date","value":"Thu, 12 Nov 2026 14:31:51 GMT"},{"name":"connection","value":"keep-alive"},{"name":"keep-alive","value":"timeout=5"},{"name":"transfer-encoding","value":"chunked"}],"securityDetails":{"protocol":"TLSv1.3","subjectName":"practice.expandtesting.com","validFrom":1789773912,"validTo":1797549911,"issuer":"YE1"},"serverAddr":{"ipAddress":"2a09:8280:1::69:2548","port":443},"timing":{"startTime":1794493911963,"domainLookupStart":-1,"domainLookupEnd":-1,"connectStart":-1,"secureConnectionStart":-1,"connectEnd":-1,"requestStart":0.42599999999947613,"responseStart":318.7620000000006},"responseEndTiming":320.3580000000002,"fetchUid":"59f10542f5c98f52fe7c9f075c3a9da6"}}}
+{"type":"before","callId":"ohxu@82","startTime":25241.521,"class":"APIRequestContext","method":"fetch","params":{"url":"users/delete-account","method":"DELETE","headers":[{"name":"x-auth-token","value":"28ec65b3281741dfa24d6a6c40c767335b8c95d551cf4d67b04da7ed445521ef"}]}}
+{"type":"log","callId":"ohxu@82","time":25321.618,"message":"→ DELETE https://practice.expandtesting.com/notes/api/users/delete-account"}
+{"type":"log","callId":"ohxu@82","time":25321.646,"message":"  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.8127.18 Safari/537.36"}
+{"type":"log","callId":"ohxu@82","time":25321.655,"message":"  accept: */*"}
+{"type":"log","callId":"ohxu@82","time":25321.661,"message":"  accept-encoding: gzip,deflate,br"}
+{"type":"log","callId":"ohxu@82","time":25321.667,"message":"  x-auth-token: 28ec65b3281741dfa24d6a6c40c767335b8c95d551cf4d67b04da7ed445521ef"}
+{"type":"log","callId":"ohxu@82","time":25321.672,"message":"  cookie: express:sess=eyJmbGFzaCI6e319; express:sess.sig=tdt42nQZiQvICqmrvHQ1_16fHk0"}
+{"type":"log","callId":"ohxu@82","time":25644.774,"message":"← 200 OK"}
+{"type":"log","callId":"ohxu@82","time":25644.801,"message":"  access-control-allow-origin: *"}
+{"type":"log","callId":"ohxu@82","time":25644.811,"message":"  access-control-allow-credentials: true"}
+{"type":"log","callId":"ohxu@82","time":25644.816,"message":"  access-control-allow-methods: GET, POST, PUT, DELETE, PATCH"}
+{"type":"log","callId":"ohxu@82","time":25644.82,"message":"  access-control-allow-headers: Origin, X-Requested-With, Authorization, Content-Type, Accept, X-Auth-Token"}
+{"type":"log","callId":"ohxu@82","time":25644.825,"message":"  content-type: application/json; charset=utf-8"}
+{"type":"log","callId":"ohxu@82","time":25644.83,"message":"  content-encoding: br"}
+{"type":"log","callId":"ohxu@82","time":25644.835,"message":"  etag: W/\"46-xvIiFl/4e/p/xA8LA+FZxbRy7yU\""}
+{"type":"log","callId":"ohxu@82","time":25644.839,"message":"  date: Thu, 12 Nov 2026 14:32:03 GMT"}
+{"type":"log","callId":"ohxu@82","time":25644.844,"message":"  connection: keep-alive"}
+{"type":"log","callId":"ohxu@82","time":25644.848,"message":"  keep-alive: timeout=5"}
+{"type":"log","callId":"ohxu@82","time":25644.853,"message":"  transfer-encoding: chunked"}
+{"type":"after","callId":"ohxu@82","endTime":25652.639,"result":{"response":{"url":"https://practice.expandtesting.com/notes/api/users/delete-account","status":200,"statusText":"OK","headers":[{"name":"access-control-allow-origin","value":"*"},{"name":"access-control-allow-credentials","value":"true"},{"name":"access-control-allow-methods","value":"GET, POST, PUT, DELETE, PATCH"},{"name":"access-control-allow-headers","value":"Origin, X-Requested-With, Authorization, Content-Type, Accept, X-Auth-Token"},{"name":"content-type","value":"application/json; charset=utf-8"},{"name":"content-encoding","value":"br"},{"name":"etag","value":"W/\"46-xvIiFl/4e/p/xA8LA+FZxbRy7yU\""},{"name":"date","value":"Thu, 12 Nov 2026 14:32:03 GMT"},{"name":"connection","value":"keep-alive"},{"name":"keep-alive","value":"timeout=5"},{"name":"transfer-encoding","value":"chunked"}],"securityDetails":{"protocol":"TLSv1.3","subjectName":"practice.expandtesting.com","validFrom":1789773912,"validTo":1797549911,"issuer":"YE1"},"serverAddr":{"ipAddress":"2a09:8280:1::69:2548","port":443},"timing":{"startTime":1794493923899,"domainLookupStart":-1,"domainLookupEnd":-1,"connectStart":-1,"secureConnectionStart":-1,"connectEnd":-1,"requestStart":64.04100000000108,"responseStart":385.60699999999997},"responseEndTiming":394.2649999999994,"fetchUid":"f69847dbceb3e1f36c32031c15aaa347"}}}

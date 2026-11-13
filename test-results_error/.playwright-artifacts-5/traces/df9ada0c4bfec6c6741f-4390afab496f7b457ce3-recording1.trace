@@ -1,0 +1,1 @@
+{"version":10,"type":"context-options","origin":"library","browserName":"","playwrightVersion":"1.65.0","options":{},"platform":"win32","wallTime":1794494009520,"monotonicTime":110876.146,"sdkLanguage":"javascript","title":"mocks.spec.ts:88 › Network interception and mocking › M2 | Expired/invalid session › 401 on the notes endpoint is handled by the UI"}

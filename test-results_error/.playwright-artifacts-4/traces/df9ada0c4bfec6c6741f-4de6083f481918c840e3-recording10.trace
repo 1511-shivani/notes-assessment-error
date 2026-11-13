@@ -1,0 +1,1 @@
+{"version":10,"type":"context-options","origin":"library","browserName":"","playwrightVersion":"1.65.0","options":{},"platform":"win32","wallTime":1794493993226,"monotonicTime":94585.423,"sdkLanguage":"javascript","title":"mocks.spec.ts:74 › Network interception and mocking › M1 | Deterministic notes list › handles an aborted list request without rendering stale cards"}

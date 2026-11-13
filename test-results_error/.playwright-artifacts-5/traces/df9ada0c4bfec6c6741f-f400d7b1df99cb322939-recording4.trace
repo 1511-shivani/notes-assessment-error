@@ -1,0 +1,1 @@
+{"version":10,"type":"context-options","origin":"library","browserName":"","playwrightVersion":"1.65.0","options":{},"platform":"win32","wallTime":1794494028367,"monotonicTime":129723.304,"sdkLanguage":"javascript","title":"mocks.spec.ts:149 › Network interception and mocking › M3 | Failed create/update › 500 on update: UI keeps original note and server data is unchanged"}

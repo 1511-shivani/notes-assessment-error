@@ -1,0 +1,164 @@
+# Instructions
+
+- Following Playwright test failed.
+- Explain why, be concise, respect Playwright best practices.
+- Provide a snippet of code with the fix, if possible.
+
+# Test info
+
+- Name: tests\mocks\mocks.spec.ts >> Network interception and mocking >> M3 | Failed create/update >> 500 on update: UI keeps original note and server data is unchanged
+- Location: tests\mocks\mocks.spec.ts:149:5
+
+# Error details
+
+```
+Test timeout of 60000ms exceeded.
+```
+
+# Page snapshot
+
+```yaml
+- generic [ref=e1]:
+  - paragraph [ref=e3]:
+    - link "PMP Practice" [ref=e4] [cursor=pointer]:
+      - /url: https://pmp.expandtesting.com/
+    - text: "| Free PMP Certification Mock Exam Test +900 Questions & Quizzes"
+    - link "Software testing courses" [ref=e5] [cursor=pointer]
+  - banner [ref=e10]:
+    - navigation "Main navigation" [ref=e11]:
+      - link "SUT" [ref=e12] [cursor=pointer]:
+        - /url: /
+        - 'img "Best Website for Practice Automation Testing: Free UI and REST API Examples and Apps. Using Cypress, Playwright, Selenium, WebdriverIO and Postman." [ref=e13]'
+        - text: Practice
+      - generic [ref=e14]:
+        - list [ref=e15]:
+          - listitem [ref=e16]:
+            - button "Demos" [ref=e17] [cursor=pointer]
+          - listitem [ref=e18]:
+            - link "Tools" [ref=e19] [cursor=pointer]:
+              - /url: /#tools
+          - listitem [ref=e20]:
+            - link "Tips" [ref=e21] [cursor=pointer]:
+              - /url: /tips
+          - listitem [ref=e22]:
+            - link "Test Cases" [ref=e23] [cursor=pointer]:
+              - /url: /test-cases
+          - listitem [ref=e24]:
+            - link "API Testing" [ref=e25] [cursor=pointer]:
+              - /url: /notes/api/api-docs/
+          - listitem [ref=e26]:
+            - link "About" [ref=e27] [cursor=pointer]:
+              - /url: /about
+        - list
+        - link "Free ISTQB Mock Exams" [ref=e28] [cursor=pointer]:
+          - /url: https://istqb.expandtesting.com/
+  - main [ref=e29]:
+    - paragraph [ref=e34]:
+      - text: Do you enjoy this platform? ❤️
+      - link "Buy us a coffee" [ref=e35] [cursor=pointer]:
+        - /url: https://www.buymeacoffee.com/expandtesting
+    - generic [ref=e36]:
+      - insertion [ref=e38]:
+        - generic [ref=e41]:
+          - heading "These are topics related to the article that might interest you" [level=2] [ref=e43]: Discover more
+          - link "Try Cloud Tools" [ref=e44] [cursor=pointer]
+          - link "Browse Reference" [ref=e49] [cursor=pointer]
+          - link "Secure Networks" [ref=e54] [cursor=pointer]
+          - link "Audit Security" [ref=e59] [cursor=pointer]
+          - link "WebdriverIO automation examples" [ref=e64] [cursor=pointer]
+          - link "Learn to Code" [ref=e69] [cursor=pointer]
+          - link "Source Robotics" [ref=e74] [cursor=pointer]
+          - link "React development services" [ref=e79] [cursor=pointer]
+      - generic [ref=e86]:
+        - navigation "breadcrumb mb-2" [ref=e87]:
+          - list [ref=e88]:
+            - listitem [ref=e89]:
+              - link "Practice" [ref=e90] [cursor=pointer]:
+                - /url: /
+            - listitem [ref=e91]:
+              - text: /
+              - link "Home - My Notes - The App for Automation Testing Practice" [ref=e92] [cursor=pointer]:
+                - /url: /notes/app/
+        - generic [ref=e96]:
+          - navigation [ref=e99]:
+            - generic [ref=e100]:
+              - link "MyNotes" [ref=e101] [cursor=pointer]:
+                - /url: /notes/app/
+              - list [ref=e111]:
+                - listitem [ref=e112]:
+                  - link "Profile" [ref=e113] [cursor=pointer]:
+                    - /url: /notes/app/profile
+                - listitem [ref=e114]:
+                  - button "Logout" [ref=e115] [cursor=pointer]
+          - generic [ref=e117]:
+            - generic [ref=e123]:
+              - textbox "Search notes..." [ref=e124]
+              - button "Search" [ref=e125] [cursor=pointer]
+            - generic [ref=e126]:
+              - generic [ref=e128]:
+                - button "All" [ref=e129] [cursor=pointer]
+                - button "Home•" [ref=e130] [cursor=pointer]
+                - button "Work•" [ref=e131] [cursor=pointer]
+                - button "Personal•" [ref=e132] [cursor=pointer]
+              - button "+ Add Note" [ref=e134] [cursor=pointer]
+            - generic [ref=e135]: You have 0/1 notes completed in the all categories
+            - generic [ref=e139]:
+              - generic [ref=e140]:
+                - generic [ref=e141]: Original 1794494030982-450341
+                - generic [ref=e142]:
+                  - paragraph [ref=e143]: Description for Original 1794494030982-450341
+                  - paragraph [ref=e144]: November 12, 2026 at 14:33:50
+                - generic [ref=e145]:
+                  - checkbox [ref=e146]
+                  - generic [ref=e147]:
+                    - link "View" [ref=e148] [cursor=pointer]:
+                      - /url: /notes/app/notes/6af5ce4eb6ecff02661dd2e9
+                    - button "Edit" [ref=e149] [cursor=pointer]
+                    - button "Delete" [ref=e150] [cursor=pointer]
+              - dialog [ref=e151]:
+                - generic [ref=e152]:
+                  - generic [ref=e153]:
+                    - generic [ref=e154]: Edit note
+                    - button "Close" [ref=e155] [cursor=pointer]
+                  - generic [ref=e156]:
+                    - generic [ref=e157]:
+                      - generic [ref=e158]:
+                        - generic [ref=e159]: "Category:"
+                        - combobox "Category:" [ref=e160]:
+                          - option "Home" [selected]
+                          - option "Work"
+                          - option "Personal"
+                      - generic [ref=e162]:
+                        - checkbox "Completed" [ref=e163]
+                        - generic [ref=e164]: Completed
+                      - generic [ref=e165]:
+                        - generic [ref=e166]: "Title:"
+                        - textbox "Title:" [ref=e167]: Attempted edit 1794494030982-473526
+                      - generic [ref=e168]:
+                        - generic [ref=e169]: "Description:"
+                        - textbox "Description:" [active] [ref=e170]: Description for Attempted edit 1794494030982-473526
+                    - generic [ref=e171]:
+                      - button "Save" [ref=e172] [cursor=pointer]
+                      - button "Cancel" [ref=e173] [cursor=pointer]
+      - insertion [ref=e175]:
+        - generic [ref=e178]:
+          - heading "These are topics related to the article that might interest you" [level=2] [ref=e180]: Discover more
+          - link "Automation practice platform" [ref=e181] [cursor=pointer]
+          - link "Software testing courses" [ref=e186] [cursor=pointer]
+          - link "API testing tools" [ref=e191] [cursor=pointer]
+          - link "Automation testing guide" [ref=e196] [cursor=pointer]
+          - link "API testing services" [ref=e201] [cursor=pointer]
+          - link "Test case templates" [ref=e206] [cursor=pointer]
+          - link "Selenium automation framework" [ref=e211] [cursor=pointer]
+          - link "Try Dev Tools" [ref=e216] [cursor=pointer]
+  - contentinfo [ref=e221]:
+    - generic [ref=e226]:
+      - heading "Practice Test Automation WebSite for Web UI and Rest API" [level=4] [ref=e227]
+      - paragraph [ref=e228]:
+        - text: "Version: e64cd80e | Copyright"
+        - link "Expand Testing" [ref=e229] [cursor=pointer]:
+          - /url: https://expandtesting.com/
+        - text: "2026"
+        - link "Software testing courses" [ref=e230] [cursor=pointer]
+  - generic [ref=e234] [cursor=pointer]
+```

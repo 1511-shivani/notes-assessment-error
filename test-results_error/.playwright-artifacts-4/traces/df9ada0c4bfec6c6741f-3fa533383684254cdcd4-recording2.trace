@@ -1,0 +1,63 @@
+{"version":10,"type":"context-options","origin":"library","browserName":"","playwrightVersion":"1.65.0","options":{},"platform":"win32","wallTime":1794493951454,"monotonicTime":52813.231,"sdkLanguage":"javascript","title":"mocks.spec.ts:16 › Network interception and mocking › M1 | Deterministic notes list › renders two synthetic notes from a fulfilled list response"}
+{"type":"before","callId":"hljv@53","startTime":52821.834,"class":"APIRequestContext","method":"fetch","params":{"url":"users/register","method":"POST","jsonData":"{\"name\":\"qa user 1794493951457630491\",\"email\":\"qa.1794493951457630491@example.com\",\"password\":\"Passw0rd!123\"}"}}
+{"type":"log","callId":"hljv@53","time":52847.415,"message":"→ POST https://practice.expandtesting.com/notes/api/users/register"}
+{"type":"log","callId":"hljv@53","time":52847.489,"message":"  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.8127.18 Safari/537.36"}
+{"type":"log","callId":"hljv@53","time":52847.52,"message":"  accept: */*"}
+{"type":"log","callId":"hljv@53","time":52847.543,"message":"  accept-encoding: gzip,deflate,br"}
+{"type":"log","callId":"hljv@53","time":52847.559,"message":"  content-type: application/json"}
+{"type":"log","callId":"hljv@53","time":52847.573,"message":"  content-length: 109"}
+{"type":"log","callId":"hljv@53","time":53625.47,"message":"← 201 Created"}
+{"type":"log","callId":"hljv@53","time":53625.507,"message":"  access-control-allow-origin: *"}
+{"type":"log","callId":"hljv@53","time":53625.523,"message":"  access-control-allow-credentials: true"}
+{"type":"log","callId":"hljv@53","time":53625.553,"message":"  access-control-allow-methods: GET, POST, PUT, DELETE, PATCH"}
+{"type":"log","callId":"hljv@53","time":53625.574,"message":"  access-control-allow-headers: Origin, X-Requested-With, Authorization, Content-Type, Accept, X-Auth-Token"}
+{"type":"log","callId":"hljv@53","time":53625.585,"message":"  content-type: application/json; charset=utf-8"}
+{"type":"log","callId":"hljv@53","time":53625.594,"message":"  content-encoding: br"}
+{"type":"log","callId":"hljv@53","time":53625.602,"message":"  etag: W/\"c6-uJ9T22xvrMf0uecW8T0k0ItTrmQ\""}
+{"type":"log","callId":"hljv@53","time":53625.611,"message":"  set-cookie: express:sess=eyJmbGFzaCI6e319; path=/; httponly,express:sess.sig=tdt42nQZiQvICqmrvHQ1_16fHk0; path=/; httponly"}
+{"type":"log","callId":"hljv@53","time":53625.62,"message":"  date: Thu, 12 Nov 2026 14:32:31 GMT"}
+{"type":"log","callId":"hljv@53","time":53625.629,"message":"  connection: keep-alive"}
+{"type":"log","callId":"hljv@53","time":53625.637,"message":"  keep-alive: timeout=5"}
+{"type":"log","callId":"hljv@53","time":53625.646,"message":"  transfer-encoding: chunked"}
+{"type":"after","callId":"hljv@53","endTime":53636.27,"result":{"response":{"url":"https://practice.expandtesting.com/notes/api/users/register","status":201,"statusText":"Created","headers":[{"name":"access-control-allow-origin","value":"*"},{"name":"access-control-allow-credentials","value":"true"},{"name":"access-control-allow-methods","value":"GET, POST, PUT, DELETE, PATCH"},{"name":"access-control-allow-headers","value":"Origin, X-Requested-With, Authorization, Content-Type, Accept, X-Auth-Token"},{"name":"content-type","value":"application/json; charset=utf-8"},{"name":"content-encoding","value":"br"},{"name":"etag","value":"W/\"c6-uJ9T22xvrMf0uecW8T0k0ItTrmQ\""},{"name":"set-cookie","value":"express:sess=eyJmbGFzaCI6e319; path=/; httponly"},{"name":"set-cookie","value":"express:sess.sig=tdt42nQZiQvICqmrvHQ1_16fHk0; path=/; httponly"},{"name":"date","value":"Thu, 12 Nov 2026 14:32:31 GMT"},{"name":"connection","value":"keep-alive"},{"name":"keep-alive","value":"timeout=5"},{"name":"transfer-encoding","value":"chunked"}],"securityDetails":{"protocol":"TLSv1.3","subjectName":"practice.expandtesting.com","validFrom":1789773912,"validTo":1797549911,"issuer":"YE1"},"serverAddr":{"ipAddress":"2a09:8280:1::69:2548","port":443},"timing":{"startTime":1794493951467,"domainLookupStart":0,"domainLookupEnd":36.92399999999907,"connectStart":36.92399999999907,"secureConnectionStart":92.24799999999959,"connectEnd":156.28399999999965,"requestStart":156.28399999999965,"responseStart":797.7260000000024},"responseEndTiming":809.0760000000009,"fetchUid":"03ba39749d3309d26fe55faf963b5342"}}}
+{"type":"before","callId":"hljv@56","startTime":53642.74,"class":"APIRequestContext","method":"fetch","params":{"url":"users/login","method":"POST","jsonData":"{\"email\":\"qa.1794493951457630491@example.com\",\"password\":\"Passw0rd!123\"}"}}
+{"type":"log","callId":"hljv@56","time":53644.068,"message":"→ POST https://practice.expandtesting.com/notes/api/users/login"}
+{"type":"log","callId":"hljv@56","time":53644.101,"message":"  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.8127.18 Safari/537.36"}
+{"type":"log","callId":"hljv@56","time":53644.112,"message":"  accept: */*"}
+{"type":"log","callId":"hljv@56","time":53644.124,"message":"  accept-encoding: gzip,deflate,br"}
+{"type":"log","callId":"hljv@56","time":53644.132,"message":"  content-type: application/json"}
+{"type":"log","callId":"hljv@56","time":53644.139,"message":"  content-length: 72"}
+{"type":"log","callId":"hljv@56","time":53644.147,"message":"  cookie: express:sess=eyJmbGFzaCI6e319; express:sess.sig=tdt42nQZiQvICqmrvHQ1_16fHk0"}
+{"type":"log","callId":"hljv@56","time":54045.82,"message":"← 200 OK"}
+{"type":"log","callId":"hljv@56","time":54045.847,"message":"  access-control-allow-origin: *"}
+{"type":"log","callId":"hljv@56","time":54045.858,"message":"  access-control-allow-credentials: true"}
+{"type":"log","callId":"hljv@56","time":54045.867,"message":"  access-control-allow-methods: GET, POST, PUT, DELETE, PATCH"}
+{"type":"log","callId":"hljv@56","time":54045.875,"message":"  access-control-allow-headers: Origin, X-Requested-With, Authorization, Content-Type, Accept, X-Auth-Token"}
+{"type":"log","callId":"hljv@56","time":54045.883,"message":"  content-type: application/json; charset=utf-8"}
+{"type":"log","callId":"hljv@56","time":54045.892,"message":"  content-encoding: br"}
+{"type":"log","callId":"hljv@56","time":54045.9,"message":"  etag: W/\"100-ISRHUVkJb6F/gy9CAQWJ9OOCgiE\""}
+{"type":"log","callId":"hljv@56","time":54045.909,"message":"  date: Thu, 12 Nov 2026 14:32:31 GMT"}
+{"type":"log","callId":"hljv@56","time":54045.917,"message":"  connection: keep-alive"}
+{"type":"log","callId":"hljv@56","time":54045.926,"message":"  keep-alive: timeout=5"}
+{"type":"log","callId":"hljv@56","time":54045.932,"message":"  transfer-encoding: chunked"}
+{"type":"after","callId":"hljv@56","endTime":54047.454,"result":{"response":{"url":"https://practice.expandtesting.com/notes/api/users/login","status":200,"statusText":"OK","headers":[{"name":"access-control-allow-origin","value":"*"},{"name":"access-control-allow-credentials","value":"true"},{"name":"access-control-allow-methods","value":"GET, POST, PUT, DELETE, PATCH"},{"name":"access-control-allow-headers","value":"Origin, X-Requested-With, Authorization, Content-Type, Accept, X-Auth-Token"},{"name":"content-type","value":"application/json; charset=utf-8"},{"name":"content-encoding","value":"br"},{"name":"etag","value":"W/\"100-ISRHUVkJb6F/gy9CAQWJ9OOCgiE\""},{"name":"date","value":"Thu, 12 Nov 2026 14:32:31 GMT"},{"name":"connection","value":"keep-alive"},{"name":"keep-alive","value":"timeout=5"},{"name":"transfer-encoding","value":"chunked"}],"securityDetails":{"protocol":"TLSv1.3","subjectName":"practice.expandtesting.com","validFrom":1789773912,"validTo":1797549911,"issuer":"YE1"},"serverAddr":{"ipAddress":"2a09:8280:1::69:2548","port":443},"timing":{"startTime":1794493952284,"domainLookupStart":-1,"domainLookupEnd":-1,"connectStart":-1,"secureConnectionStart":-1,"connectEnd":-1,"requestStart":0.771999999997206,"responseStart":401.4250000000029},"responseEndTiming":403.43299999999726,"fetchUid":"afc1963fdb8a654166a15ff05567f5e1"}}}
+{"type":"before","callId":"hljv@94","startTime":67184.937,"class":"APIRequestContext","method":"fetch","params":{"url":"users/delete-account","method":"DELETE","headers":[{"name":"x-auth-token","value":"43609d4d5f494d2cae05fa76223e0d9902abb5d4d0d04bb49f769bc56d0b3fe2"}]}}
+{"type":"log","callId":"hljv@94","time":67185.885,"message":"→ DELETE https://practice.expandtesting.com/notes/api/users/delete-account"}
+{"type":"log","callId":"hljv@94","time":67185.906,"message":"  user-agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/158.0.8127.18 Safari/537.36"}
+{"type":"log","callId":"hljv@94","time":67185.913,"message":"  accept: */*"}
+{"type":"log","callId":"hljv@94","time":67185.919,"message":"  accept-encoding: gzip,deflate,br"}
+{"type":"log","callId":"hljv@94","time":67185.924,"message":"  x-auth-token: 43609d4d5f494d2cae05fa76223e0d9902abb5d4d0d04bb49f769bc56d0b3fe2"}
+{"type":"log","callId":"hljv@94","time":67185.93,"message":"  cookie: express:sess=eyJmbGFzaCI6e319; express:sess.sig=tdt42nQZiQvICqmrvHQ1_16fHk0"}
+{"type":"log","callId":"hljv@94","time":67503.383,"message":"← 200 OK"}
+{"type":"log","callId":"hljv@94","time":67503.406,"message":"  access-control-allow-origin: *"}
+{"type":"log","callId":"hljv@94","time":67503.414,"message":"  access-control-allow-credentials: true"}
+{"type":"log","callId":"hljv@94","time":67503.42,"message":"  access-control-allow-methods: GET, POST, PUT, DELETE, PATCH"}
+{"type":"log","callId":"hljv@94","time":67503.424,"message":"  access-control-allow-headers: Origin, X-Requested-With, Authorization, Content-Type, Accept, X-Auth-Token"}
+{"type":"log","callId":"hljv@94","time":67503.429,"message":"  content-type: application/json; charset=utf-8"}
+{"type":"log","callId":"hljv@94","time":67503.435,"message":"  content-encoding: br"}
+{"type":"log","callId":"hljv@94","time":67503.439,"message":"  etag: W/\"46-xvIiFl/4e/p/xA8LA+FZxbRy7yU\""}
+{"type":"log","callId":"hljv@94","time":67503.445,"message":"  date: Thu, 12 Nov 2026 14:32:45 GMT"}
+{"type":"log","callId":"hljv@94","time":67503.449,"message":"  connection: keep-alive"}
+{"type":"log","callId":"hljv@94","time":67503.454,"message":"  keep-alive: timeout=5"}
+{"type":"log","callId":"hljv@94","time":67503.466,"message":"  transfer-encoding: chunked"}
+{"type":"after","callId":"hljv@94","endTime":67505.003,"result":{"response":{"url":"https://practice.expandtesting.com/notes/api/users/delete-account","status":200,"statusText":"OK","headers":[{"name":"access-control-allow-origin","value":"*"},{"name":"access-control-allow-credentials","value":"true"},{"name":"access-control-allow-methods","value":"GET, POST, PUT, DELETE, PATCH"},{"name":"access-control-allow-headers","value":"Origin, X-Requested-With, Authorization, Content-Type, Accept, X-Auth-Token"},{"name":"content-type","value":"application/json; charset=utf-8"},{"name":"content-encoding","value":"br"},{"name":"etag","value":"W/\"46-xvIiFl/4e/p/xA8LA+FZxbRy7yU\""},{"name":"date","value":"Thu, 12 Nov 2026 14:32:45 GMT"},{"name":"connection","value":"keep-alive"},{"name":"keep-alive","value":"timeout=5"},{"name":"transfer-encoding","value":"chunked"}],"securityDetails":{"protocol":"TLSv1.3","subjectName":"practice.expandtesting.com","validFrom":1789773912,"validTo":1797549911,"issuer":"YE1"},"serverAddr":{"ipAddress":"2a09:8280:1::69:2548","port":443},"timing":{"startTime":1794493965826,"domainLookupStart":-1,"domainLookupEnd":-1,"connectStart":-1,"secureConnectionStart":-1,"connectEnd":-1,"requestStart":0.606999999989057,"responseStart":316.84799999999814},"responseEndTiming":319.00199999999313,"fetchUid":"708bd947b3d71d99a9711dcb5103517f"}}}
